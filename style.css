@@ -1,0 +1,179 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.espacio {
+  margin-top: 10%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #91a4bd; /* Fondo azul */
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 1rem; /* Texto legible en móviles */
+  line-height: 1.6; /* Espaciado entre líneas */
+  text-align: center;
+  margin: 0.5rem auto; /* Espaciado vertical uniforme */
+  padding: 0 1rem; /* Espacio lateral */
+}
+
+.contact-section {
+  margin: 1.5rem auto; /* Espaciado superior e inferior */
+  padding: 1rem;
+  background-color: #002f6c; /* Fondo más oscuro para destacar la sección */
+  border-radius: 8px; /* Esquinas redondeadas */
+  text-align: center;
+}
+
+.contact-item {
+  margin: 1rem 0; /* Espacio entre contactos */
+}
+
+.contact-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00ffd1; /* Resaltar nombres */
+  margin-bottom: 0.5rem;
+}
+
+.contact-info {
+  font-size: 0.9rem; /* Texto más pequeño para correos y teléfonos */
+  color: white;
+}
+
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #004aad; /* Fondo principal */
+  color: white; /* Texto predeterminado */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0094ff; /* Azul brillante para la barra de navegación */
+  padding: 10px 15px;
+  margin-bottom: 5%;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.navbar-brand:hover {
+  color: #00ffd1; /* Verde azulado para resaltar */
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+/* Offcanvas */
+.offcanvas {
+  background-color: #004aad; /* Fondo azul oscuro */
+  color: white;
+  font-family: 'Arial', sans-serif; /* Tipografía consistente */
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #0094ff;
+}
+
+.offcanvas-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Offcanvas Links */
+.offcanvas-body .nav-link {
+  color: white;
+  font-family: 'Arial', sans-serif; /* Consistencia tipográfica */
+  font-size: 16px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Separadores sutiles */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #00ffd1; /* Resaltar en verde azulado */
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo suave al pasar el mouse */
+}
+
+.offcanvas-body .nav-link.active {
+  color: #00ffd1; /* Color distintivo para el enlace activo */
+  font-weight: bold;
+}
+
+
+/* Botones */
+.btn-close-white {
+  filter: invert(1); /* Botón de cierre blanco */
+}
+
+.btn {
+  background-color: #00ffd1;
+  color: black;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0094ff;
+  color: white;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .offcanvas-body .nav-link {
+      font-size: 14px; /* Tamaño más pequeño para dispositivos móviles */
+  }
+
+  .navbar-brand {
+      font-size: 16px;
+  }
+
+  .offcanvas-title {
+      font-size: 18px;
+  }
+}
+.contact-section .h3blanco {
+  color: white;
+}
