@@ -9,7 +9,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25refm #258cfb;
 }
 
 html {
@@ -22,10 +22,37 @@ body {
 }
 
 .espacio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center-align the text */
   margin-top: 15.2%;
   margin-left: 1.1%;
   margin-right: 1.5%;
 }
+.espacio img {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the paragraph text */
+.textitomanuleti {
+  color: black; /* Darker text for readability */
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 16px;
+}
+
 
 body {
   font-family: 'Arial', sans-serif;
@@ -197,13 +224,24 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+.p1 {
   color: #00509e;
   font-size: 1.8rem;
   margin-bottom: 10px;
   border-left: 5px solid #003366;
   padding-left: 10px;
 }
+
+
+.p2 {
+  color: #00ffd1;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-left: 5px solid #00d3ac;
+  padding-left: 10px;
+}
+
+
 
 section p, section ul {
   text-align: justify;
@@ -241,7 +279,9 @@ header h1 {
 }
 .a1{
   background-color: #b0d6ff;
+  color: black;
 }
 .a2{
-  background-color: #6d7f92;
+  background-color: #003366;
+  color: white
 }
