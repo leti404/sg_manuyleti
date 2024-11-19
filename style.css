@@ -21,37 +21,6 @@ body {
   margin-bottom: 60px;
 }
 
-.espacio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  background-color: #f9f9f9; /* Light background for better contrast */
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  text-align: center; /* Center-align the text */
-  margin-top: 15.2%;
-  margin-left: 1.1%;
-  margin-right: 1.5%;
-}
-.espacio img {
-  width: 150px; /* Adjust size as needed */
-  height: 150px;
-  border-radius: 50%; /* Makes the image circular */
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-}
-
-/* Style for the paragraph text */
-.textitomanuleti {
-  color: black; /* Darker text for readability */
-  line-height: 1.6;
-  text-align: justify;
-  font-size: 16px;
-}
 
 
 body {
@@ -64,6 +33,11 @@ body {
 
 h1 {
   text-align: center;
+}
+
+.espacio{
+  margin-left: 1.5%;
+  margin-right: 1.5;
 }
 
 p {
@@ -284,4 +258,61 @@ header h1 {
 .a2{
   background-color: #003366;
   color: white
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+/* About Section */
+.about, .skills{
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .skills h2 {
+  color: #004aad;
+}
+
+/* Skills Section */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #e8f5e9;
+  color: #0069b4;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
 }
